@@ -15,7 +15,7 @@ public class NameSorter {
         // Read names from the input file
         List<String> names = readNamesFromFile(inputFile);
 
-        // Sort names
+        // Sort names alphabetically
         Collections.sort(names);
 
         // Log sorted names

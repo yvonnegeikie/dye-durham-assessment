@@ -12,7 +12,7 @@ This is the technical assessment for Dye & Durham.
 
 2. **Run the program:**
     ```
-    java NameSorter `unsorted-names-list.txt`
+    java NameSorter unsorted-names-list.txt
     ```
 
 3. **View sorted names:**

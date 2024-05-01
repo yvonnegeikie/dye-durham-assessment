@@ -7,12 +7,12 @@ This is the technical assessment for Dye & Durham.
 ## Usage
 1. **Compile the program:**
     ```
-    javac NameSorter.java
+    javac *.java
     ```
 
 2. **Run the program:**
     ```
-    java NameSorter unsorted-names-list.txt
+    java NameSorterApplication unsorted-names-list.txt
     ```
 
 3. **View sorted names:**

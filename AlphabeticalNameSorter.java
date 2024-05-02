@@ -1,9 +1,10 @@
 
-// AlphabeticalNameSorter.java class implements the sorting functionality
+// AlphabeticalNameSorter.java 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+// Sorts names alphabetically
 public class AlphabeticalNameSorter implements NameSorter {
     @Override
     public void sortNames(List<String> names) {

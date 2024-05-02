@@ -1,7 +1,8 @@
 
-// NameSorterApplication.java class coordinates the entire process
+// NameSorterApplication.java 
 import java.util.List;
 
+// Coordinates the entire process of reading, sorting, logging, and writing names
 public class NameSorterApplication {
     private NameReader nameReader;
     private NameSorter nameSorter;

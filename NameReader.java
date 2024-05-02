@@ -1,11 +1,12 @@
 
-// NameReader.java reads names from java/assesment/unsorted-names-list.txt
+// NameReader.java 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+// Reads names from unsorted-names-list.txt
 public class NameReader {
     public List<String> readNamesFromFile(String inputFile) {
         List<String> names = new ArrayList<>();

@@ -1,10 +1,11 @@
 
-// NameWriter.java class responsible for writing names to a file
+// NameWriter.java 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
+// Writes names to a file
 public class NameWriter {
     public void writeNamesToFile(List<String> names, String outputFile) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
